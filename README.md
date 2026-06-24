@@ -1,5 +1,7 @@
 # SnippetProof demo
 
+![examples](https://pageindex.dev/api/badge/xufei547/snippetproof-demo)
+
 This repo demonstrates [SnippetProof](https://github.com/xufei547/snippetproof) catching a
 broken code example in CI. **The failing check on this repo is intentional** — SnippetProof
 ran the two examples below and flagged the broken one, with an inline annotation on the exact line.

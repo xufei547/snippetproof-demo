@@ -6,3 +6,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: xufei547/snippetproof@v1
+        with:
+          token: ${{ secrets.SNIPPETPROOF_TOKEN }}
