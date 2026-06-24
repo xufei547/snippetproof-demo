@@ -1,0 +1,8 @@
+name: SnippetProof
+on: [push, pull_request]
+jobs:
+  snippetproof:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: xufei547/snippetproof@v1
